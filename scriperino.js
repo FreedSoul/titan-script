@@ -56,7 +56,7 @@
       //console.log(result[matches[t]].style.background);
     }
   }
-
+  //fuckerino fuckerino
   //anadiendo los estilos al sitio
   //(function () {
   //var s = document.createElement('style');
