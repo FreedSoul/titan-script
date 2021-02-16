@@ -28,6 +28,7 @@
   'Jahna Greenbay -- South Orange RMC',
   'Jahna Greenbay -- Daytona RMC',
   'JAHNA GREENBAY -- Melbourne RMC',
+  'CORKSCREW MINE -- VENICE RMC',
   'JAHNA GREENBAY -- ST CLOUD RMC']
   
 
@@ -53,8 +54,11 @@
   }else{
     console.log('los matches son: '+matches);
     for (let t = 0; t < matches.length; t++) {
-      result[matches[t]].style.background = 'green';
-      result[matches[t]].style.color = 'white';
+      if(result[matches[t]].style.backgroundColor == '#F28C8C' || result[matches[t]].style.backgroundColor == "rgb(242, 140, 140)"){
+
+      }else{
+         result[matches[t]].style.background = '#8CF2B4';
+      }
       //console.log(result[matches[t]].style.background);
     }
   }
