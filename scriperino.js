@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         titan-important-loads
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @version      0.2
+// @updateURL    https://github.com/FreedSoul/titan-script/blob/main/scriperino.js
+// @downloadURL  https://github.com/FreedSoul/titan-script/scriperino.js
+// @description  add funcionality to carrier web
+// @author       FreedSoul
 // @match        https://carrier.realtimefreight.com/CarrierPrivate/AvailableTenders.aspx
 // @grant        none
 // ==/UserScript==
@@ -56,7 +58,7 @@
       //console.log(result[matches[t]].style.background);
     }
   }
-  //fuckerino fuckerino
+
   //anadiendo los estilos al sitio
   //(function () {
   //var s = document.createElement('style');
