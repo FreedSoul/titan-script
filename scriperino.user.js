@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @updateURL    https://github.com/FreedSoul/titan-script/blob/main/scriperino.js
-// @downloadURL  https://github.com/FreedSoul/titan-script/scriperino.js
+// @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
 // @author       FreedSoul
 // @match        https://carrier.realtimefreight.com/CarrierPrivate/AvailableTenders.aspx
