@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         titan-important-loads
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @updateURL    https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
@@ -58,12 +58,17 @@
 
       }else{
          result[matches[t]].style.background = '#8CF2B4';
+
       }
       //console.log(result[matches[t]].style.background);
     }
   }
-
   //anadiendo los estilos al sitio
+    for(let k=0;k<result.length;k++){
+         if(result[k].childNodes[10].innerText.includes('Aggregate')){
+             result[k].childNodes[10].style.backgroundColor = '#8CB4F2'
+         }
+    }
   //(function () {
   //var s = document.createElement('style');
   //s.type = "text/css";
