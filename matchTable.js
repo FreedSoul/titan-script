@@ -1,4 +1,4 @@
-module.exports const matchTable = ['Shipper -- Consignee',
+const matchTable = ['Shipper -- Consignee',
   'Jacksonville Terminal -- Greenland RMC',
   'Melbourne Terminal -- South Orange RMC',
   'Melbourne Terminal -- Orlando Block',
@@ -8,3 +8,5 @@ module.exports const matchTable = ['Shipper -- Consignee',
   'JAHNA GREENBAY -- Melbourne RMC',
   'CORKSCREW MINE -- VENICE RMC',
   'JAHNA GREENBAY -- ST CLOUD RMC']
+
+module.exports = matchTable;
