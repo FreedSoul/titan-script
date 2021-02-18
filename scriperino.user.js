@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         titan-important-loads
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.5.1
 // @updateURL    https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
+// @require      https://raw.githubusercontent.com/FreedSoul/titan-script/main/matchTable.js
 // @author       FreedSoul
 // @match        https://carrier.realtimefreight.com/CarrierPrivate/AvailableTenders.aspx
 // @grant        none
@@ -20,7 +21,7 @@
     });
   });
   //lista de loads - high priority
-  const matchTable = ['Shipper -- Consignee',
+  /*const matchTable = ['Shipper -- Consignee',
   'Jacksonville Terminal -- Greenland RMC',
   'Melbourne Terminal -- South Orange RMC',
   'Melbourne Terminal -- Orlando Block',
@@ -29,7 +30,7 @@
   'Jahna Greenbay -- Daytona RMC',
   'JAHNA GREENBAY -- Melbourne RMC',
   'CORKSCREW MINE -- VENICE RMC',
-  'JAHNA GREENBAY -- ST CLOUD RMC']
+  'JAHNA GREENBAY -- ST CLOUD RMC']*/
   
 
   //PARSEANDO RESULT IN LIST RESULT PARA DAR UN FORMATO IGUAL A MATCHTABLE
