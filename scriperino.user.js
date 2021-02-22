@@ -5,7 +5,6 @@
 // @updateURL    https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
-// @require      https://raw.githubusercontent.com/FreedSoul/titan-script/main/matchTable.js
 // @author       FreedSoul
 // @match        https://carrier.realtimefreight.com/CarrierPrivate/AvailableTenders.aspx
 // ==/UserScript==
@@ -29,6 +28,7 @@
   'Jahna Greenbay -- Daytona RMC',
   'JAHNA GREENBAY -- Melbourne RMC',
   'CORKSCREW MINE -- VENICE RMC',
+  'TAMPA TERMINAL -- EASTPORT RMC',
   'JAHNA GREENBAY -- ST CLOUD RMC']
   
 
@@ -74,7 +74,7 @@
    function myFocus(count){
     let tabActive = true;
     if (tabActive == document.hasFocus()){
-        //console.log('entro en el primero')
+        console.log('entro en el primero')
         if(ft == false){
            //console.log('entro en el segundo')
            location.reload()
