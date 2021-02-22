@@ -1,16 +1,13 @@
 // ==UserScript==
 // @name         titan-important-loads
 // @namespace    http://tampermonkey.net/
-// @version      0.5.3
+// @version      0.5.4
 // @updateURL    https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
 // @require      https://raw.githubusercontent.com/FreedSoul/titan-script/main/matchTable.js
 // @author       FreedSoul
 // @match        https://carrier.realtimefreight.com/CarrierPrivate/AvailableTenders.aspx
-// @grant        GM_getTab()
-// @grant        GM_log()
-// @grant        window
 // ==/UserScript==
 
 (function() {
@@ -72,7 +69,7 @@
              result[k].childNodes[10].style.backgroundColor = '#8CB4F2'
          }
     }
-    let ft = true;
+   let ft = true;
    //recargando pagina segun parametros
    function myFocus(count){
     let tabActive = true;
