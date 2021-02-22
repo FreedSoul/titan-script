@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         titan-important-loads
 // @namespace    http://tampermonkey.net/
-// @version      0.5.4
+// @version      0.5.5
 // @updateURL    https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @downloadURL  https://raw.githubusercontent.com/FreedSoul/titan-script/main/scriperino.user.js
 // @description  add funcionality to carrier web
