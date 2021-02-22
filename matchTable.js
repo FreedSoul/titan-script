@@ -1,4 +1,4 @@
-const matchTable = ['Shipper -- Consignee',
+const matchTable = () => ['Shipper -- Consignee',
   'Jacksonville Terminal -- Greenland RMC',
   'Melbourne Terminal -- South Orange RMC',
   'Melbourne Terminal -- Orlando Block',
