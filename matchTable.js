@@ -9,4 +9,4 @@ const matchTable = ['Shipper -- Consignee',
   'CORKSCREW MINE -- VENICE RMC',
   'JAHNA GREENBAY -- ST CLOUD RMC']
 
-module.exports = matchTable;
+
